@@ -1,9 +1,8 @@
 START_DATE = "2016-01-01"
-END_DATE   = None            # None = today
-BENCH_TICKER = "MCHI"        # iShares MSCI China ETF (USD)
+END_DATE   = "2025-09-01"            
+BENCH_TICKER = "MCHI"        # msci china thing
 
-# very small but liquid China-heavy universe (HK + US ADRs)
-# yfinance uses .HK suffix for Hong Kong
+# yfinance uses .HK suffix for hnog kogn
 UNIVERSE = [
     "0700.HK",  # Tencent
     "9988.HK",  # Alibaba HK
@@ -19,7 +18,6 @@ UNIVERSE = [
     "0386.HK",  # Sinopec
     "0857.HK",  # PetroChina
     "2269.HK",  # Wuxi Biologics
-    # US ADRs (kept for breadth)
     "BABA", "JD", "PDD", "BIDU", "NIO", "LI", "XPEV"
 ]
 
